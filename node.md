@@ -41,4 +41,8 @@ GitHub上连接已有仓库时，是通过ssh的公开密钥来进行认证的�
     git checkout -b feature-name // 创建、切换分支
     git branch featrue-name // 创建分支
     git checkout feature-name // 切换分支,*表示当前分支
+    git merge // 合并分支
 ```
+
+## 特性分支
+集中实现单一特性（主题），除此之外不进行任何作业的分支。在日常开发中，往往会创建多个特性分支，同时在此外在保留一个随时可以发布软件的稳定分支。
